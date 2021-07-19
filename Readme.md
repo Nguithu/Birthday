@@ -16,12 +16,14 @@ Enter your gender.
 And as a result the user will be able to:
 
 View their respective Akan name
-Known Bugs
+
 
 
 Technologies Used
 HTML - For building the user interface
-CSS - Seyling
+
+CSS - Styling
+
 Javascript - For document object manipulation
 
 
