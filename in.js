@@ -22,7 +22,7 @@ function validate() {
   }
   else if( document.myForm.month.value == "" || isNaN( document.myForm.month.value ) || 
   document.myForm.month.value.length > 2 || document.myForm.month.value > 12  || document.myForm.month.value <= 0){
-  document.myForm.month.value.length != 2 || document.myForm.month.value > 12  || document.myForm.month.value <= 0){
+  document.myForm.month.value.length != 2 || document.myForm.month.value > 12  || document.myForm.month.value <= 0;{
      alert( "Please provide your month of birth! between 1 and 12" );
      document.myForm.month.focus() ;
      return false;
@@ -33,7 +33,7 @@ function validate() {
      alert( "Please provide a valid date that you were born in!" );
      document.myForm.day.focus() ;
      return false;
-@@ -33,14 +27,15 @@ function validate() {
+@@ (-33,14 +27,15) @@ function validate() {
       return false;
   }   
   {
@@ -119,4 +119,4 @@ function getGender(){
 function findName(){
   dayValue = calculateDayValue();
   getGender();
-}
+}}}}}
